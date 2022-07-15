@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.13.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -16,9 +20,6 @@
     "lodash": "^4.17.21",
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.19"
-  },
-  "engines": {
-    "node": "16.15.1",
-    "npm": "8.13.2"
   }
+  
 }
