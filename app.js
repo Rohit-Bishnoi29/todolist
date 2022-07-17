@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose");
 const app = express();
+const ejs = require("ejs");
+
 const _ = require("lodash");
 app.set('view engine', 'ejs');
 
@@ -127,7 +129,7 @@ app.get("/:customListName", function (req, res) {
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 8000;
+  port = 3000;
 }
 
 
